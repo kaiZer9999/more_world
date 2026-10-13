@@ -2,7 +2,7 @@
   {
     "id": "knife_ammo",
     "type": "ammunition_type",
-    "name": "боевой нож (снаряд)",
+    "name": "knife (ammo)",
     "default": "knife_launcher_ammo"
   }
 ]
