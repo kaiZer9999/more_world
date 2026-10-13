@@ -3,7 +3,6 @@
     "type": "MOD_INFO",
     "id": "more_world",
     "name": "More World",
-    "authors": [ "Grok" ],
     "description": "Various stuff.",
     "category": "items",
     "lua_api_version": 2,
