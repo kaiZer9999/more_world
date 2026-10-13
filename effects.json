@@ -1,0 +1,13 @@
+[
+  {
+    "type": "effect_type",
+    "id": "eff_emergency_accel",
+    "name": [ "Emergency Acceleration" ],
+    "desc": [ "The implant overloads your muscles due to critically low health. Movement speed is increased." ],
+    "rating": "good",
+    "max_intensity": 4,
+    "base_mods": { "speed_mod": [ 5 ] },
+    "scaling_mods": { "speed_mod": [ 8 ] },
+    "show_in_info": true
+  }
+]

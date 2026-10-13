@@ -1,0 +1,187 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: more_world\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ru_RU\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
+"X-Generator: Poedit 3.9\n"
+
+#: modinfo.json
+msgid "More World"
+msgstr "More World"
+
+msgid "Various stuff."
+msgstr "всякая всячина"
+
+#: mutations.json
+msgid "Super Regeneration"
+msgstr "Сверхрегенерация"
+
+msgid "Genetic modification. Health regenerates 10 times faster (both in combat and while sleeping)."
+msgstr "Генетическая модификация. Здоровье восстанавливается в 10 раз быстрее (и в бою, и во сне)."
+
+#: bionics.json
+msgid "Emergency Accelerator"
+msgstr "Аварийный акселератор"
+
+msgid "Speed boost when HP below 25%."
+msgstr "При падении здоровья ниже 25% повышает скорость передвижения. Чем ниже здоровье — тем сильнее бонус (до ~35%)."
+
+#: items/emergency_accelerator.json
+msgid "Emergency Accelerator CBM"
+msgstr "Аварийный акселератор CBM"
+
+msgid "Cybernetic emergency acceleration implant."
+msgstr "Кибернетический имплант аварийного ускорения."
+
+#: effects.json
+msgid "Emergency Acceleration"
+msgstr "Аварийное ускорение"
+
+msgid "The implant overloads your muscles due to critically low health. Movement speed is increased."
+msgstr "Имплант перегружает мышцы из-за критического уровня здоровья. Скорость повышена."
+
+#: items/knife_launcher.json
+msgid "combat knife (projectile)"
+msgid_plural "combat knives (projectiles)"
+msgstr[0] "боевой нож (снаряд)"
+msgstr[1] "боевых ножа (снаряда)"
+msgstr[2] "боевых ножей (снарядов)"
+
+msgid "A combat knife specially prepared for firing from a pneumatic launcher."
+msgstr "Боевой нож, специально подготовленный для стрельбы из пневматического метателя."
+
+msgid "pneumatic knife launcher"
+msgstr "пневматический метатель ножей"
+
+msgid "A homemade pneumatic launcher for firing combat knives. Quiet, powerful, holds 4 knives."
+msgstr "Самодельный пневматический метатель для стрельбы боевыми ножами. Тихий, мощный, магазин на 4 ножа."
+
+msgid "Pneumatic World"
+msgstr "Пневматический Мир"
+
+msgid "A detailed guide on crafting pneumatic weapons and special projectiles."
+msgstr "Подробное руководство по созданию пневматического оружия и специальных снарядов."
+
+msgid "pneumatic mechanism"
+msgid_plural "pneumatic mechanisms"
+msgstr[0] "пневматический механизм"
+msgstr[1] "пневматических механизма"
+msgstr[2] "пневматических механизмов"
+
+msgid "A compact pneumatic mechanism. Key component for pneumatic weapons and exoskeletons."
+msgstr "Компактный пневматический механизм. Ключевой компонент для пневматического оружия и экзоскелетов."
+
+msgid "small pneumatic exoskeleton"
+msgstr "малый пневматический экзоскелет"
+
+msgid "A light pneumatic exoskeleton. +50% carry weight."
+msgstr "Лёгкий пневматический экзоскелет. +50% к переносимому весу."
+
+#: bionics.json
+msgid "Isometric Stabilizer"
+msgstr "Изометрический стабилизатор"
+
+msgid "-20% melee stamina cost."
+msgstr "Расход выносливости при атаках уменьшается на 20%."
+
+#: items/emergency_accelerator.json
+msgid "Isometric Stabilizer CBM"
+msgstr "Изометрический стабилизатор CBM"
+
+msgid "Implant that reduces stamina cost of attacks."
+msgstr "Имплант, уменьшающий расход выносливости при атаках."
+
+msgid "High-Density Bone Marrow"
+msgstr "Высокоплотный костный мозг"
+
+msgid "+15% melee damage, +10% melee stamina cost."
+msgstr "Увеличивает урон в ближнем бою на 15%, но увеличивает расход выносливости в ближнем бою на 10%."
+
+msgid "Epimorphic Skeleton"
+msgstr "Эпиморфный скелет"
+
+msgid "+15% max HP."
+msgstr "Увеличивает запас здоровья на 15%."
+
+msgid "Pain Regulator"
+msgstr "Регулятор боли"
+
+msgid "-7% incoming damage."
+msgstr "Уменьшает весь получаемый урон на 7%."
+
+msgid "Leroy's Ligaments"
+msgstr "Связки Лироя"
+
+msgid "+12% speed."
+msgstr "Повышают скорость передвижения на 12%."
+
+msgid "Gorilla Hands"
+msgstr "руки гориллы"
+
+msgid "+1 Strength."
+msgstr "+1 Сила."
+
+msgid "Lynx Paws"
+msgstr "Лапы рыси"
+
+msgid "-50% noise, -20% fall damage."
+msgstr "−50% шум, −20% урон от падения."
+
+msgid "Adrenaline Stimulator"
+msgstr "Стимулятор адреналина"
+
+msgid "+10% stamina on melee kill."
+msgstr "Восстанавливает 10% запаса выносливости при убийстве врага оружием ближнего боя."
+
+msgid "+20% armor below 50% HP."
+msgstr "Увеличивает показатель брони на 20%, когда у вас остаётся меньше 50% запаса здоровья."
+
+msgid "MonoChitin"
+msgstr "МоноХитин"
+
+msgid "Armor and health recovery."
+msgstr "Невероятно прочная подкожная броня из генетически модифицированного хитина. Увеличивает объём восстанавливаемого здоровья."
+
+msgid "Berserk"
+msgstr "Байодайн Берсерк"
+
+msgid "Toggle: -30% damage taken, -100% melee stamina cost, +10% speed. Activation 100 kJ, 30 kJ every 10 turns."
+msgstr "Переключаемый: −30% получаемого урона, −100% расход выносливости на ближний бой, +10% скорость. Активация 100 kJ, 30 kJ каждые 10 ходов."
+
+msgid "Aim Stabilizer"
+msgstr "Стабилизатор прицеливания"
+
+msgid "-15% dispersion."
+msgstr "−15% разброс при стрельбе."
+
+msgid "Brain-Computer Interface"
+msgstr "Интерфейс мозг-компьютер"
+
+msgid "+2 Intelligence."
+msgstr "+2 к интеллекту."
+
+msgid "Sarif Series 8 Energy Converter"
+msgstr "Преобразователь энергии Sarif серии 8"
+
+msgid "+1 kJ bionic power every 10 minutes."
+msgstr "+1 kJ энергии биоников каждые 10 минут."
+
+msgid "Sentinel RX Health System"
+msgstr "Система здравоохранения Sentinel RX"
+
+msgid "+10% max HP."
+msgstr "+10% хп."
+
+msgid "Attention Concentration Enhancement"
+msgstr "Улучшение концентрации внимания"
+
+msgid "+10% reading and crafting speed."
+msgstr "+10% скорость чтения и крафта."

@@ -1,0 +1,8 @@
+[
+  {
+    "id": "knife_ammo",
+    "type": "ammunition_type",
+    "name": "боевой нож (снаряд)",
+    "default": "knife_launcher_ammo"
+  }
+]

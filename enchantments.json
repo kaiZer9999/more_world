@@ -1,0 +1,98 @@
+[
+  {
+    "type": "enchantment",
+    "id": "ench_isometric_stabilizer",
+    "condition": "ALWAYS",
+    "values": [ { "value": "ATTACK_COST", "multiply": -0.2 } ]
+  },
+  {
+    "type": "enchantment",
+    "id": "ench_bone_marrow",
+    "condition": "ALWAYS",
+    "values": [
+      { "value": "MELEE_DAMAGE", "multiply": 0.15 },
+      { "value": "ATTACK_COST", "multiply": 0.1 }
+    ]
+  },
+  {
+    "type": "enchantment",
+    "id": "ench_epimorphic",
+    "condition": "ALWAYS",
+    "values": [ { "value": "MAX_HP", "multiply": 0.15 } ]
+  },
+  {
+    "type": "enchantment",
+    "id": "ench_pain_regulator",
+    "condition": "ALWAYS",
+    "values": [
+      { "value": "ARMOR_BASH", "multiply": -0.07 },
+      { "value": "ARMOR_CUT", "multiply": -0.07 },
+      { "value": "ARMOR_STAB", "multiply": -0.07 },
+      { "value": "ARMOR_BULLET", "multiply": -0.07 }
+    ]
+  },
+  {
+    "type": "enchantment",
+    "id": "ench_leroy",
+    "condition": "ALWAYS",
+    "values": [ { "value": "SPEED", "multiply": 0.12 } ]
+  },
+  {
+    "type": "enchantment",
+    "id": "ench_monochitin",
+    "condition": "ALWAYS",
+    "values": [
+      { "value": "ARMOR_BASH", "add": -8 },
+      { "value": "ARMOR_CUT", "add": -8 },
+      { "value": "ARMOR_STAB", "add": -6 }
+    ]
+  },
+  {
+    "type": "enchantment",
+    "id": "ench_berserk",
+    "condition": "ACTIVE",
+    "values": [
+      { "value": "ARMOR_BASH", "multiply": -0.3 },
+      { "value": "ARMOR_CUT", "multiply": -0.3 },
+      { "value": "ARMOR_STAB", "multiply": -0.3 },
+      { "value": "SPEED", "multiply": 0.1 },
+      { "value": "ATTACK_COST", "multiply": -1.0 }
+    ]
+  },
+  {
+    "type": "enchantment",
+    "id": "ench_aim_stab",
+    "condition": "ALWAYS",
+    "values": [ { "value": "WEAPON_DISPERSION", "add": -15 } ]
+  },
+  {
+    "type": "enchantment",
+    "id": "ench_bci",
+    "condition": "ALWAYS",
+    "values": [ { "value": "INTELLIGENCE", "add": 2 } ]
+  },
+  {
+    "type": "enchantment",
+    "id": "ench_sentinel",
+    "condition": "ALWAYS",
+    "values": [ { "value": "MAX_HP", "multiply": 0.1 } ]
+  },
+  {
+    "type": "enchantment",
+    "id": "ench_focus",
+    "condition": "ALWAYS",
+    "values": [ { "value": "MOVE_COST", "multiply": -0.05 } ]
+  },
+  {
+    "type": "enchantment",
+    "id": "ench_gorilla",
+    "condition": "ALWAYS",
+    "values": [ { "value": "STRENGTH", "add": 1 } ]
+  },
+  {
+    "type": "enchantment",
+    "id": "ench_lynx",
+    "condition": "ALWAYS",
+    "values": [ { "value": "FOOTSTEP_NOISE", "multiply": -0.5 } ]
+  }
+]

@@ -1,0 +1,10 @@
+[
+  {
+    "type": "item_group",
+    "id": "pneumatic_world_books",
+    "subtype": "distribution",
+    "entries": [
+      { "item": "book_pneumatic_world", "prob": 100 }
+    ]
+  }
+]

@@ -1,0 +1,94 @@
+[
+  {
+    "type": "recipe",
+    "result": "pneumatic_knife_launcher",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_RANGED",
+    "skill_used": "fabrication",
+    "skills_required": [ [ "mechanics", 4 ], [ "fabrication", 5 ] ],
+    "difficulty": 5,
+    "time": "4 h",
+    "book_learn": [ [ "book_pneumatic_world", 4 ] ],
+    "using": [ [ "welding_standard", 20 ] ],
+    "components": [
+      [ [ "pneumatic_mechanism", 1 ] ],
+      [ [ "pipe", 2 ] ],
+      [ [ "steel_chunk", 3 ] ],
+      [ [ "scrap", 4 ] ],
+      [ [ "plastic_chunk", 2 ] ],
+      [ [ "spring", 1 ] ]
+    ],
+    "tools": [
+      [ [ "welder", 20 ], [ "welder_crude", 40 ], [ "oxy_torch", 10 ] ],
+      [ [ "hacksaw", -1 ] ],
+      [ [ "screwdriver", -1 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "knife_launcher_ammo",
+    "category": "CC_AMMO",
+    "subcategory": "CSC_AMMO_OTHER",
+    "skill_used": "fabrication",
+    "skills_required": [ [ "fabrication", 2 ] ],
+    "difficulty": 2,
+    "time": "15 m",
+    "autolearn": true,
+    "book_learn": [ [ "book_pneumatic_world", 2 ] ],
+    "components": [
+      [ [ "knife_combat", 1 ] ],
+      [ [ "string_6", 1 ], [ "duct_tape", 5 ] ]
+    ],
+    "tools": [
+      [ [ "screwdriver", -1 ], [ "knife_combat", -1 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "pneumatic_mechanism",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_PARTS",
+    "skill_used": "fabrication",
+    "skills_required": [ [ "mechanics", 3 ], [ "fabrication", 4 ] ],
+    "difficulty": 4,
+    "time": "1 h 30 m",
+    "book_learn": [ [ "book_pneumatic_world", 3 ] ],
+    "using": [ [ "welding_standard", 10 ] ],
+    "components": [
+      [ [ "pipe", 1 ] ],
+      [ [ "steel_chunk", 2 ] ],
+      [ [ "spring", 1 ] ],
+      [ [ "plastic_chunk", 1 ] ],
+      [ [ "hose", 1 ] ]
+    ],
+    "tools": [
+      [ [ "welder", 10 ], [ "welder_crude", 20 ] ],
+      [ [ "screwdriver", -1 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "small_pneumatic_exo",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_OTHER",
+    "skill_used": "fabrication",
+    "skills_required": [ [ "mechanics", 5 ], [ "fabrication", 6 ] ],
+    "difficulty": 6,
+    "time": "8 h",
+    "book_learn": [ [ "book_pneumatic_world", 5 ] ],
+    "using": [ [ "welding_standard", 30 ] ],
+    "components": [
+      [ [ "pneumatic_mechanism", 3 ] ],
+      [ [ "steel_chunk", 6 ] ],
+      [ [ "plastic_chunk", 4 ] ],
+      [ [ "scrap", 8 ] ],
+      [ [ "hose", 2 ] ],
+      [ [ "spring", 3 ] ]
+    ],
+    "tools": [
+      [ [ "welder", 30 ], [ "oxy_torch", 15 ] ],
+      [ [ "hacksaw", -1 ] ],
+      [ [ "screwdriver", -1 ] ]
+    ]
+  }
+]

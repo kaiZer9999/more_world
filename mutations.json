@@ -1,0 +1,16 @@
+[
+  {
+    "type": "mutation",
+    "id": "XGENE_WOLVERINE",
+    "name": { "str": "Super Regeneration" },
+    "description": "Genetic modification. Health regenerates 10 times faster (both in combat and while sleeping).",
+    "points": 12,
+    "starting_trait": true,
+    "valid": true,
+    "purifiable": false,
+    "healing_awake": 9.0,
+    "healing_resting": 9.0,
+    "mending_modifier": 10.0,
+    "category": [ "MEDICAL" ]
+  }
+]

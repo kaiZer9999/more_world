@@ -1,0 +1,147 @@
+[
+  {
+    "type": "bionic",
+    "id": "bio_emergency_accelerator",
+    "name": { "str": "Emergency Accelerator" },
+    "description": "Speed boost when HP below 25%.",
+    "occupied_bodyparts": [ [ "torso", 4 ] ],
+    "flags": [ "BIONIC_TOGGLED", "BIONIC_NPC_USABLE" ],
+    "act_cost": "0 kJ"
+  },
+  {
+    "type": "bionic",
+    "id": "bio_isometric_stabilizer",
+    "name": { "str": "Isometric Stabilizer" },
+    "description": "-20% melee stamina cost.",
+    "occupied_bodyparts": [ [ "torso", 3 ], [ "arm_l", 1 ], [ "arm_r", 1 ] ],
+    "flags": [ "BIONIC_NPC_USABLE" ],
+    "enchantments": [ "ench_isometric_stabilizer" ]
+  },
+  {
+    "type": "bionic",
+    "id": "bio_bone_marrow",
+    "name": { "str": "High-Density Bone Marrow" },
+    "description": "+15% melee damage, +10% melee stamina cost.",
+    "occupied_bodyparts": [ [ "torso", 5 ] ],
+    "flags": [ "BIONIC_NPC_USABLE" ],
+    "enchantments": [ "ench_bone_marrow" ]
+  },
+  {
+    "type": "bionic",
+    "id": "bio_epimorphic",
+    "name": { "str": "Epimorphic Skeleton" },
+    "description": "+15% max HP.",
+    "occupied_bodyparts": [ [ "torso", 6 ] ],
+    "flags": [ "BIONIC_NPC_USABLE" ],
+    "enchantments": [ "ench_epimorphic" ]
+  },
+  {
+    "type": "bionic",
+    "id": "bio_pain_regulator",
+    "name": { "str": "Pain Regulator" },
+    "description": "-7% incoming damage.",
+    "occupied_bodyparts": [ [ "torso", 3 ], [ "head", 1 ] ],
+    "flags": [ "BIONIC_NPC_USABLE" ],
+    "enchantments": [ "ench_pain_regulator" ]
+  },
+  {
+    "type": "bionic",
+    "id": "bio_leroy_ligaments",
+    "name": { "str": "Leroy's Ligaments" },
+    "description": "+12% speed.",
+    "occupied_bodyparts": [ [ "leg_l", 2 ], [ "leg_r", 2 ] ],
+    "flags": [ "BIONIC_NPC_USABLE" ],
+    "enchantments": [ "ench_leroy" ]
+  },
+  {
+    "type": "bionic",
+    "id": "bio_adrenaline_stim",
+    "name": { "str": "Adrenaline Stimulator" },
+    "description": "+10% stamina on melee kill.",
+    "occupied_bodyparts": [ [ "torso", 3 ] ],
+    "flags": [ "BIONIC_NPC_USABLE" ]
+  },
+  {
+    "type": "bionic",
+    "id": "bio_monochitin",
+    "name": { "str": "MonoChitin" },
+    "description": "Armor and health recovery.",
+    "occupied_bodyparts": [ [ "torso", 8 ] ],
+    "flags": [ "BIONIC_NPC_USABLE" ],
+    "enchantments": [ "ench_monochitin" ]
+  },
+  {
+    "type": "bionic",
+    "id": "bio_berserk",
+    "name": { "str": "Berserk" },
+    "description": "Toggle: -30% damage taken, -100% melee stamina cost, +10% speed. Activation 100 kJ, 30 kJ every 10 turns.",
+    "occupied_bodyparts": [ [ "torso", 10 ], [ "head", 2 ] ],
+    "flags": [ "BIONIC_TOGGLED", "BIONIC_NPC_USABLE" ],
+    "act_cost": "100 kJ",
+    "react_cost": "30 kJ",
+    "time": 10,
+    "enchantments": [ "ench_berserk" ]
+  },
+  {
+    "type": "bionic",
+    "id": "bio_aim_stabilizer",
+    "name": { "str": "Aim Stabilizer" },
+    "description": "-15% dispersion.",
+    "occupied_bodyparts": [ [ "head", 2 ] ],
+    "flags": [ "BIONIC_NPC_USABLE" ],
+    "enchantments": [ "ench_aim_stab" ]
+  },
+  {
+    "type": "bionic",
+    "id": "bio_bci",
+    "name": { "str": "Brain-Computer Interface" },
+    "description": "+2 Intelligence.",
+    "occupied_bodyparts": [ [ "head", 3 ] ],
+    "flags": [ "BIONIC_NPC_USABLE" ],
+    "enchantments": [ "ench_bci" ]
+  },
+  {
+    "type": "bionic",
+    "id": "bio_sarif_converter",
+    "name": { "str": "Sarif Series 8 Energy Converter" },
+    "description": "+1 kJ bionic power every 10 minutes.",
+    "occupied_bodyparts": [ [ "torso", 4 ] ],
+    "flags": [ "BIONIC_NPC_USABLE" ]
+  },
+  {
+    "type": "bionic",
+    "id": "bio_sentinel_rx",
+    "name": { "str": "Sentinel RX Health System" },
+    "description": "+10% max HP.",
+    "occupied_bodyparts": [ [ "torso", 5 ] ],
+    "flags": [ "BIONIC_NPC_USABLE" ],
+    "enchantments": [ "ench_sentinel" ]
+  },
+  {
+    "type": "bionic",
+    "id": "bio_focus_enhancement",
+    "name": { "str": "Attention Concentration Enhancement" },
+    "description": "+10% reading and crafting speed.",
+    "occupied_bodyparts": [ [ "head", 2 ] ],
+    "flags": [ "BIONIC_NPC_USABLE" ],
+    "enchantments": [ "ench_focus" ]
+  },
+  {
+    "type": "bionic",
+    "id": "bio_gorilla_hands",
+    "name": { "str": "Gorilla Hands" },
+    "description": "+1 Strength.",
+    "occupied_bodyparts": [ [ "arm_l", 2 ], [ "arm_r", 2 ] ],
+    "flags": [ "BIONIC_NPC_USABLE" ],
+    "enchantments": [ "ench_gorilla" ]
+  },
+  {
+    "type": "bionic",
+    "id": "bio_lynx_paws",
+    "name": { "str": "Lynx Paws" },
+    "description": "-50% noise, -20% fall damage.",
+    "occupied_bodyparts": [ [ "foot_l", 1 ], [ "foot_r", 1 ] ],
+    "flags": [ "BIONIC_NPC_USABLE" ],
+    "enchantments": [ "ench_lynx" ]
+  }
+]
